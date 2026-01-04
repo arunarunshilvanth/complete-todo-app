@@ -9,3 +9,22 @@ input {
 .kg-button {
   width: 72px;
 }
+body {
+  background-color: #f8f9fa;
+}
+
+.todo-card {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 14px;
+}
+.add-btn {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.add-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
